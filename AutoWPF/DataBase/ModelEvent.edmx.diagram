@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ba6b61c4a3004d25ac4c5fe4f02c72bf" Name="Diagram1">
+        <EntityTypeShape EntityType="Taxi_bdModel.Address" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="Taxi_bdModel.Car" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="Taxi_bdModel.Client" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Taxi_bdModel.Driver" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Taxi_bdModel.Folk" Width="1.5" PointX="2.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Taxi_bdModel.Order_" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Taxi_bdModel.Rent" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Taxi_bdModel.sysdiagrams" Width="1.5" PointX="4.75" PointY="6.875" IsExpanded="true" />
+        <AssociationConnector Association="Taxi_bdModel.FK_Address_Order_" ManuallyRouted="false" />
+        <AssociationConnector Association="Taxi_bdModel.FK__Rent__Fk_Car__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="Taxi_bdModel.FK__Order___Fk_Clien__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="Taxi_bdModel.FK__Order___Fk_Drive__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="Taxi_bdModel.FK__Rent__Fk_Driver__3B75D760" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
